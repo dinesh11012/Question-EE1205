@@ -79,81 +79,33 @@ may be fixed to be anticlockwise in every case: ($x$ is in cm and $t$ is in $s$)
     x = -2 \sin\left(3t + \frac{\pi}{3}\right)\\
    x =2\cos\left(3t+\frac{5\pi}{6}\right)
 \end{align}
-
-\begin{tikzpicture}[scale=1.2]
-    % Axis
-    \draw[<->] (-2.5,0) -- (2.5,0) node[right] {$x$};
-    \draw[<->] (0,-2.5) -- (0,2.5) node[above] {$y$};
-    \draw (0,0) circle (2);
-     % \node at ({-2*cos(120)}, {2*sin(120)}) {$<$};
-     \draw[->] (2,0) arc (0:45:2);
-     \draw[->] (2,0) arc (0:215:2);
-
-    \draw[->] (0,0) -- (120:2);
-    \draw[<->] (0.5,0) arc (0:120:0.5) node[midway, right] {$\frac{5\pi}{6}$};
-    \node at (1.5,2.3) {$\omega = 3 rad/s$};
-    \node at (0.8,-1) {$A =2cm$};
-    
-\end{tikzpicture}
-
+\begin{figure}[!htbp]
+    \input{codes/sol_1}
+\end{figure}
 \item \begin{align}
     x = \cos\left(\frac{\pi}{6} - t\right)
 \end{align}
-\begin{tikzpicture}[scale=1.5]
-\centering
-    % Axis
-    \draw[<->] (-1.5,0) -- (1.5,0) node[right] {$x$};
-    \draw[<->] (0,-1.5) -- (0,1.5) node[above] {$y$};
-    \draw (0,0) circle (1);
-     % \node at ({-2*cos(120)}, {2*sin(120)}) {$<$};
-     \draw[->] (1,0) arc (0:45:1);
-     \draw[->] (1,0) arc (0:215:1);
-
-    \draw[->] (0,0) -- (330:1);
-    \draw[<->] (0.5,0) arc (0:-30:0.5) node at (0.2,-0.5){$\frac{-\pi}{6}$};
-    \node at (1.5,1.3) {$\omega = -1 rad/s$};
-    \node at (0.8,-1.1) {$A =1cm$};
-\end{tikzpicture}
+\begin{figure}[!htbp]
+    \input{codes/sol_2}
+\end{figure}
 
 \item \begin{align}
     x &= 3 \sin\left(2\pi t + \frac{\pi}{4}\right)\\
     x &= -3\cos\left(2\pi t + \frac{3\pi}{4}\right)
 \end{align}
-\begin{tikzpicture}[scale=1]
-\centering
-    % Axis
-    \draw[<->] (-3.5,0) -- (3.5,0) node[right] {$x$};
-    \draw[<->] (0,-3.5) -- (0,3.5) node[above] {$y$};
-    \draw (0,0) circle (3);
-     % \node at ({-2*cos(120)}, {2*sin(120)}) {$<$};
-     \draw[->] (3,0) arc (0:45:3);
-     \draw[->] (3,0) arc (0:215:3);
-
-    \draw[->] (0,0) -- (315:3);
-    \draw[<->] (0.5,-0.5) arc (-45:-180:0.707) node at (-0.9,-1){$\frac{3\pi}{4}$};
-    \node at (1.5,1.3) {$\omega = 2\pi rad/s$};
-    \node at (1.8,-0.5) {$A =1cm$};
-\end{tikzpicture}
+\begin{figure}[!htbp]
+    \input{codes/sol_3}
+\end{figure}
 
 \item 
 \begin{align}
     x = 2 \cos(\pi t)
 \end{align}
+\begin{figure}[!htbp]
+    \input{codes/sol_4}
+\end{figure}
 
-\begin{tikzpicture}[scale=1.2]
-\centering
-    % Axis
-    \draw[<->] (-2.5,0) -- (2.5,0) node[right] {$x$};
-    \draw[<->] (0,-2.5) -- (0,2.5) node[above] {$y$};
-    \draw (0,0) circle (2);
-     % \node at ({-2*cos(120)}, {2*sin(120)}) {$<$};
-     \draw[->] (2,0) arc (0:45:2);
-      \draw[->] (2,0) arc (0:215:2);
-
-    \node at (2.2,1.8) {$\omega = \pi rad/s$};
-    \node at (0.9,-0.6) {$A =2cm$};
-\end{tikzpicture}
 
 \end{enumerate}
 \bibliographystyle{IEEEtran}
-\end{document},
+\end{document}
