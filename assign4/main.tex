@@ -58,10 +58,10 @@
 \renewcommand{\thefigure}{\arabic{figure}}
 \renewcommand{\thetable}{\arabic{table}}
 \large\textbf{\textsl{Question:}}
-A series RLC circuit with $R = 10 \Omega$, $L = 50 mH$ and $C = 100 \micro F$ connected to
-$200$ V, $50$ Hz supply consumes power P. The value of L is changed such that this
-circuit consumes same power P but operates with lagging power factor. The new
-value of L is $\_\_\_\_\_$ mH (rounded off to two decimal places).
+A series $RLC$ circuit with $R = 10 \Omega$, $L = 50 mH$ and $C = 100 \micro F$ connected to
+$200$ $V$, $50$ Hz supply consumes power $P$. The value of $L$ is changed such that this
+circuit consumes same power $P$ but operates with lagging power factor. The new
+value of L is $\hrulefill$ $mH$ (rounded off to two decimal places).
 \hfill(GATE 33 BM 2022)
 
 \solution
@@ -82,28 +82,30 @@ value of L is $\_\_\_\_\_$ mH (rounded off to two decimal places).
 
 From \figref{fig:fig1.33.BM.2022}
 
-In s - domain,
+In $s$ - domain,
 \begin{figure}[htbp]
     \centering
     \input{figs/fig2}
 \end{figure}
 
- \begin{align}
-         Z &= R +j(X_l - X_c)\\ 
-         Z &= R +j\left(2\pi fL - \frac{1}{2\pi fC}\right)\label{eq:Z_impedence.bm.33.2022}
- \end{align}
-From \tabref{tab:input_parameters.33.BM.2022}:
   \begin{align}
-      Z = 10 -  16.123 j 
+      Z = R + sL_{old} + \frac{1}{sC}
   \end{align}
-As the circuit consumes same power P but operates with lagging power factor : 
+As the circuit consumes same power $P$ but operates with lagging power factor : 
 
 The new impedance($Z_{new}$) will be :
 \begin{align}
-    Z_{new}=  10 + 16.123 j =  R +j\left(2\pi fL_{new} - \frac{1}{2\pi fC}\right)
+    Z_{new} =  R + sL_{new} + \frac{1}{sC}
 \end{align}
 Comparing the imaginary parts of the $Z_{new}$:
-
+\begin{align}
+    sL_{old} + \frac{1}{sC} = sL_{new} + \frac{1}{sC}
+    \end{align}
+Taking $s = j2\pi f$ :
+\begin{align}
+     j\left(2\pi fL_{old} - \frac{1}{2\pi fC}\right)  =  -j\left(2\pi fL_{new} - \frac{1}{2\pi fC}\right)
+\end{align}
+From \tabref{tab:input_parameters.33.BM.2022}:
 \begin{align}
     L_{new} \approx 152.7 \text{mH}
 \end{align}
