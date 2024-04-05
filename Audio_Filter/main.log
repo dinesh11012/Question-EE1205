@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  5 APR 2024 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.17)  5 APR 2024 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1401,91 +1401,91 @@ Package pdftex.def Info: figs/after_filter.png  used on input line 88.
 <figs/Plot_xn_yn.png, id=89, 462.528pt x 346.896pt>
 File: figs/Plot_xn_yn.png Graphic file (type png)
 <use figs/Plot_xn_yn.png>
-Package pdftex.def Info: figs/Plot_xn_yn.png  used on input line 123.
+Package pdftex.def Info: figs/Plot_xn_yn.png  used on input line 120.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 226.
+LaTeX Warning: Command \j invalid in math mode on input line 223.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 226.
+LaTeX Warning: Command \j invalid in math mode on input line 223.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 228.
+LaTeX Warning: Command \j invalid in math mode on input line 225.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 228.
+LaTeX Warning: Command \j invalid in math mode on input line 225.
 
 [2 <./figs/Plot_xn_yn.png>]
 <figs/H(z)_3.5.png, id=131, 462.528pt x 346.896pt>
 File: figs/H(z)_3.5.png Graphic file (type png)
 <use figs/H(z)_3.5.png>
-Package pdftex.def Info: figs/H(z)_3.5.png  used on input line 250.
+Package pdftex.def Info: figs/H(z)_3.5.png  used on input line 247.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 <figs/hn.png, id=136, 462.528pt x 346.896pt>
 File: figs/hn.png Graphic file (type png)
 <use figs/hn.png>
-Package pdftex.def Info: figs/hn.png  used on input line 283.
+Package pdftex.def Info: figs/hn.png  used on input line 279.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
  [3 <./figs/H(z)_3.5.png> <./figs/hn.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 311--317
+Underfull \hbox (badness 10000) in paragraph at lines 307--313
 
  []
 
 <figs/hndef.png, id=171, 462.528pt x 346.896pt>
 File: figs/hndef.png Graphic file (type png)
 <use figs/hndef.png>
-Package pdftex.def Info: figs/hndef.png  used on input line 326.
+Package pdftex.def Info: figs/hndef.png  used on input line 322.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 <figs/y_by_conv.png, id=177, 462.528pt x 346.896pt>
 File: figs/y_by_conv.png Graphic file (type png)
 <use figs/y_by_conv.png>
-Package pdftex.def Info: figs/y_by_conv.png  used on input line 351.
+Package pdftex.def Info: figs/y_by_conv.png  used on input line 347.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-LaTeX Warning: Command \j invalid in math mode on input line 376.
+LaTeX Warning: Command \j invalid in math mode on input line 372.
 
 
-LaTeX Warning: Command \j invalid in math mode on input line 386.
+LaTeX Warning: Command \j invalid in math mode on input line 382.
 
 [4 <./figs/hndef.png> <./figs/y_by_conv.png>]
 <figs/yn_verf_5.4.png, id=207, 462.528pt x 346.896pt>
 File: figs/yn_verf_5.4.png Graphic file (type png)
 <use figs/yn_verf_5.4.png>
-Package pdftex.def Info: figs/yn_verf_5.4.png  used on input line 403.
+Package pdftex.def Info: figs/yn_verf_5.4.png  used on input line 399.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 <figs/yn_DFT_matrix.png, id=209, 462.528pt x 346.896pt>
 File: figs/yn_DFT_matrix.png Graphic file (type png)
 <use figs/yn_DFT_matrix.png>
-Package pdftex.def Info: figs/yn_DFT_matrix.png  used on input line 449.
+Package pdftex.def Info: figs/yn_DFT_matrix.png  used on input line 445.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 456.
+(hyperref)                removing `math shift' on input line 452.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@@underline' on input line 456.
+(hyperref)                removing `\@@underline' on input line 452.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hbox' on input line 456.
+(hyperref)                removing `\hbox' on input line 452.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\mathsurround' on input line 456.
+(hyperref)                removing `\mathsurround' on input line 452.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\z@' on input line 456.
+(hyperref)                removing `\z@' on input line 452.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 456.
+(hyperref)                removing `math shift' on input line 452.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 470--474
+Underfull \hbox (badness 10000) in paragraph at lines 466--470
 
  []
 
@@ -1493,20 +1493,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 470--474
 <figs/lfilter.png, id=237, 462.528pt x 346.896pt>
 File: figs/lfilter.png Graphic file (type png)
 <use figs/lfilter.png>
-Package pdftex.def Info: figs/lfilter.png  used on input line 481.
+Package pdftex.def Info: figs/lfilter.png  used on input line 477.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-Overfull \hbox (22.79459pt too wide) detected at line 500
+Overfull \hbox (22.79459pt too wide) detected at line 496
 []
  []
 
 
-Overfull \hbox (27.65247pt too wide) detected at line 511
+Overfull \hbox (27.65247pt too wide) detected at line 507
 []
  []
 
 
-Overfull \hbox (13.91446pt too wide) detected at line 518
+Overfull \hbox (13.91446pt too wide) detected at line 514
  []$[] \OT1/txr/m/n/12 = 0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 02\OML/txmi/m/it/1
 2 x\OT1/txr/m/n/12 (\OML/txmi/m/it/12 n\OT1/txr/m/n/12 ) + 0\OML/txmi/m/it/12 :
 \OT1/txr/m/n/12 06\OML/txmi/m/it/12 x\OT1/txr/m/n/12 (\OML/txmi/m/it/12 n \OMS/
@@ -1519,10 +1519,10 @@ r/m/n/12 (\OML/txmi/m/it/12 n \OMS/txsy/m/n/12 ^^@ \OT1/txr/m/n/12 3)$
 <figs/Filter_Response.png, id=241, 462.528pt x 346.896pt>
 File: figs/Filter_Response.png Graphic file (type png)
 <use figs/Filter_Response.png>
-Package pdftex.def Info: figs/Filter_Response.png  used on input line 530.
+Package pdftex.def Info: figs/Filter_Response.png  used on input line 526.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 
-Overfull \hbox (6.53441pt too wide) detected at line 545
+Overfull \hbox (6.53441pt too wide) detected at line 541
  []$[]  \OML/txmi/m/it/12 h\OT1/txr/m/n/12 (\OML/txmi/m/it/12 n\OT1/txr/m/n/12 
 ) = 0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 02\OML/txmi/m/it/12 ^^N\OT1/txr/m/n/12 
 (\OML/txmi/m/it/12 n\OT1/txr/m/n/12 )  +  0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 0
@@ -1533,7 +1533,7 @@ Overfull \hbox (6.53441pt too wide) detected at line 545
  []
 
 
-Overfull \hbox (21.13979pt too wide) detected at line 545
+Overfull \hbox (21.13979pt too wide) detected at line 541
  []$[] \OT1/txr/m/n/12 +  0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 258\OML/txmi/m/it
 /12 ^^N\OT1/txr/m/n/12 (\OML/txmi/m/it/12 n \OMS/txsy/m/n/12 ^^@ \OT1/txr/m/n/1
 2 3)  +  0\OML/txmi/m/it/12 :\OT1/txr/m/n/12 241\OML/txmi/m/it/12 ^^N\OT1/txr/m
@@ -1544,13 +1544,13 @@ m/it/12 n \OMS/txsy/m/n/12 ^^@ \OT1/txr/m/n/12 5) + \OML/txmi/m/it/12 ::::::$ [
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 551--553
+Underfull \hbox (badness 1997) in paragraph at lines 547--549
 \OT1/txr/m/n/12 As both $\OML/txmi/m/it/12 a []$ \OT1/txr/m/n/12 and $\OML/txmi
 /m/it/12 b []$ \OT1/txr/m/n/12 are fi-nite length
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 551--553
+Underfull \hbox (badness 10000) in paragraph at lines 547--549
 
  []
 
@@ -1558,7 +1558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 551--553
 <figs/h(n)_6.2.png, id=269, 462.528pt x 346.896pt>
 File: figs/h(n)_6.2.png Graphic file (type png)
 <use figs/h(n)_6.2.png>
-Package pdftex.def Info: figs/h(n)_6.2.png  used on input line 560.
+Package pdftex.def Info: figs/h(n)_6.2.png  used on input line 556.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
  [7
 
@@ -1569,11 +1569,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  45010 strings out of 478287
  1032404 string characters out of 5849289
- 1703446 words of memory out of 5000000
+ 1708446 words of memory out of 5000000
  62314 multiletter control sequences out of 15000+600000
  540566 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 115i,17n,118p,424b,1903s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,17n,118p,424b,1944s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
@@ -1583,7 +1583,7 @@ pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (7 pages, 293914 bytes).
+Output written on main.pdf (7 pages, 294118 bytes).
 PDF statistics:
  359 PDF objects out of 1000 (max. 8388607)
  303 compressed objects within 4 object streams

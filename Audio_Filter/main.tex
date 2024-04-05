@@ -64,7 +64,7 @@
 \label{input_sound}
 \item The sound file used for this code is obtained from the below link
 \begin{lstlisting}
-$https://github.com/dhanushnayakh03/EE1205/blob/main/Audio_%20Filter/codes/Dhanush-Singing.wav
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/Audio%20files/inp.wav
 \end{lstlisting}
 \item 
 \label{Python code}
@@ -89,9 +89,6 @@ The darker areas are those where the frequencies have very low intensities, and 
     \caption{Spectrogram of the audio file after Filtering}
     \label{fig:after_filter_plot}
 \end{figure}
-
-
-
 \end{enumerate}
 
 \section{Difference Equation}
@@ -111,11 +108,11 @@ Sketch $y(n)$.\\
 Solve\\
 \solution  The C code calculates $y\brak{n}$ and generates values in a text file.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/2.2.c
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/2_2.c
 \end{lstlisting} 
 The following code plots \eqref{prob:2.1} and \eqref{prob:2.2}
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/2.2.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/2.2.py
 \end{lstlisting}
 
 \begin{figure}[H]
@@ -230,7 +227,7 @@ known as the {\em Discrete Time Fourier Transform} (DTFT) of $h(n)$.
 \\
 \solution The following code plots the magnitude of transfer function.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/3.5.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/3.5.py
 \end{lstlisting}
 Substituting $z = e^{j \omega}$ in \eqref{eq:freq_resp}, we get
 \begin{align}
@@ -257,7 +254,6 @@ Therefore its fundamental period is $2\pi$ , which verifies that DTFT of a signa
 \begin{enumerate}[label=\thesection.\arabic*]
 \item \label{prob:impulse_resp}
 Find an expression for $h(n)$ using $H(z)$, given that 
-%in Problem \ref{eq:ztransab} and \eqref{eq:anun}, given that
 \begin{equation}
 \label{eq:impulse_resp}
 h(n) \system{Z} H(z)
@@ -276,7 +272,7 @@ using \eqref{eq:anun} and \eqref{eq:z_trans_shift}.
 \\
 \solution The following code plots $h\brak{n}$ 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/4.2.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/4.2.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -319,7 +315,7 @@ The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig
 \ref{fig:hn}. 
 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/4.2.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/4.4.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
@@ -344,7 +340,7 @@ $y(n)$ in  Fig.
 \ref{fig:xnyn}. 
 %
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/4.5.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/4.5.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -389,13 +385,13 @@ y\brak{n}={\frac {1}{N}}\sum _{k=0}^{N-1}Y\brak{k}\cdot e^{\j 2\pi kn/N},\quad n
 
 \solution The above three questions are solved using the code below.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/5_sol.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/5_sol.py
 \end{lstlisting}
 
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and IFFT.
 \solution The solution of this question can be found in the code below.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/5.4.py   
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/5.4.py  
 \end{lstlisting}
 This code verifies the result by plotting the obtained result with the result obtained by IDFT.
 \begin{figure}[H]
@@ -442,7 +438,7 @@ where the $\odot$ represents the Hadamard product which performs element-wise mu
 
 The below code computes $y\brak{n}$ by DFT Matrix and then plots it.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/5.5.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/5.5.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -474,7 +470,7 @@ where the input signal is $x(n)$ and the output signal is $y(n)$ with initial va
 
 \solution The below code gives the output of an Audio Filter without using the built in function signal.lfilter.
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6.1.py 
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/6.1.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -523,7 +519,7 @@ From \eqref{eq:iir_filter_gen}
 \end{align}
 The below code plots Filter frequency response
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6_filter_response.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/6_filter_response.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -553,7 +549,7 @@ As both $a\brak{k}$ and $b\brak{k}$ are finite length sequences they converge.\\
 
 
 \begin{lstlisting}
-https://github.com/dhanushnayakh03/EE1205/tree/main/Audio_%20Filter/codes/6_filter_response.py
+https://github.com/dinesh11012/Signals-and-Systems-EE1205/blob/main/Audio_Filter/codes/6.2.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
